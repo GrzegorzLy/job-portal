@@ -1,3 +1,8 @@
+:root {
+  --main-second-color: #e4e8f0;
+  --header-height: 54px;
+}
+
 html,
 body {
   padding: 0;
