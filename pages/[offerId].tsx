@@ -18,8 +18,12 @@ const OfferPage: NextPage = () => {
 
   const offer = data?.find((offer) => offer.id === offerId);
 
-  if (error || !data || !offer)
-    return <div>Something unexpected happened!</div>;
+  if (!offer) {
+    router.push("/404");
+    return null;
+  }
+
+  if (error || !data) return <div>Something unexpected happened!</div>;
 
   return (
     <div className="container">

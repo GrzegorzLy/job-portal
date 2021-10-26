@@ -1,6 +1,8 @@
 This is an amazing Job Portal ;)
 
-## Getting Started
+[https://job-portal-sandy.vercel.app](https://job-portal-sandy.vercel.app)
+
+## Getting Started - DEV
 
 Run the development server:
 

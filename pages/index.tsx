@@ -7,7 +7,7 @@ import OffersList from "../components/OffersList";
 import Map from "../components/Map";
 
 const Home: NextPage = () => {
-  // TODO too many records, we need pagination
+  // TODO too many records
   const { isLoading, error, data } = useQuery<Offer[]>("offers", getOffers);
 
   if (isLoading) return <Loading />;
